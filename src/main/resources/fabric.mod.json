@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "pvpclient",
+  "version": "${version}",
+  "name": "PvpClient",
+  "description": "Modular client with a ClickGUI, HUD and config profiles. Gameplay-altering modules are restricted to private test worlds.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.pvpclient.PvpClient"]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
